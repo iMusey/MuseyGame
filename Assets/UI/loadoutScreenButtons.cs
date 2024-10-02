@@ -12,6 +12,13 @@ public class loadoutScreenButtons : MonoBehaviour
     public Button play;
     public Button exit;
 
+    //skills
+    public Image passive;
+    public Image skill1;
+    public Image skill2;
+    public Image skill3;
+    public Image skill4;
+
     //color swap buttons
     public Button R;
     public Button O;
@@ -55,6 +62,14 @@ public class loadoutScreenButtons : MonoBehaviour
         // Set Colors and Sprites
         infoMan.playerClass = classPrefabs[classNum];
         currentSprite.sprite = classes[classNum];
+
+        // Set skill sprites
+        classScript tempClass = infoMan.playerClass.GetComponent<classScript>();
+        passive.sprite = tempClass.passive;
+        skill1.sprite = tempClass.skill1;
+        skill2.sprite = tempClass.skill2;
+        skill3.sprite = tempClass.skill3;
+        skill4.sprite = tempClass.skill4;
 
         currentSprite.color = colorManager.colorMan.colors[infoMan.color];
         for (int x = 0; x < wheelSprites.Length; x++)
@@ -140,6 +155,13 @@ public class loadoutScreenButtons : MonoBehaviour
         }
         infoMan.playerClass = classPrefabs[classNum];
         currentSprite.sprite = classes[classNum];
+        
+        classScript tempClass = infoMan.playerClass.GetComponent<classScript>();
+        passive.sprite = tempClass.passive;
+        skill1.sprite = tempClass.skill1;
+        skill2.sprite = tempClass.skill2;
+        skill3.sprite = tempClass.skill3;
+        skill4.sprite = tempClass.skill4;
     }
     void ChangeClassL()
     {
@@ -153,5 +175,12 @@ public class loadoutScreenButtons : MonoBehaviour
         }
         infoMan.playerClass = classPrefabs[classNum];
         currentSprite.sprite = classes[classNum];
+
+        classScript tempClass = infoMan.playerClass.GetComponent<classScript>();
+        passive.sprite = tempClass.passive;
+        skill1.sprite = tempClass.skill1;
+        skill2.sprite = tempClass.skill2;
+        skill3.sprite = tempClass.skill3;
+        skill4.sprite = tempClass.skill4;
     }
 }

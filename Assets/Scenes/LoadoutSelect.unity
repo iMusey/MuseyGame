@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 91901567}
   - component: {fileID: 91901566}
   m_Layer: 5
-  m_Name: main
+  m_Name: skill1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 195985081}
   - component: {fileID: 195985080}
   m_Layer: 5
-  m_Name: ult
+  m_Name: skill4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1818,6 +1818,11 @@ MonoBehaviour:
   infoMan: {fileID: 0}
   play: {fileID: 700224414}
   exit: {fileID: 1899950715}
+  passive: {fileID: 1631773694}
+  skill1: {fileID: 91901566}
+  skill2: {fileID: 747046647}
+  skill3: {fileID: 2044274540}
+  skill4: {fileID: 195985080}
   R: {fileID: 731135022}
   O: {fileID: 988614047}
   Y: {fileID: 1579878471}

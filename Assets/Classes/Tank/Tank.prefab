@@ -48,6 +48,11 @@ MonoBehaviour:
   bodySprite: {fileID: 4398345849745990211}
   player: {fileID: 0}
   healthBar: {fileID: 0}
+  passive: {fileID: 21300000, guid: 9b053148cee3665489e6923f03dbb3da, type: 3}
+  skill1: {fileID: 21300000, guid: 9b053148cee3665489e6923f03dbb3da, type: 3}
+  skill2: {fileID: 21300000, guid: 9b053148cee3665489e6923f03dbb3da, type: 3}
+  skill3: {fileID: 21300000, guid: 9b053148cee3665489e6923f03dbb3da, type: 3}
+  skill4: {fileID: 21300000, guid: 9b053148cee3665489e6923f03dbb3da, type: 3}
   maxHP: 0
   HP: 0
   invincible: 0
@@ -79,6 +84,7 @@ MonoBehaviour:
   body: {fileID: 1407955452153838422}
   canon: {fileID: 2412993274675918922}
   canonSprite: {fileID: 4171706900521548428}
+  relativeMousePos: {x: 0, y: 0, z: 0}
   skill1DmgCoeff: 1
   skill2DmgCoeff: 1
   skill4DmgCoeff: 1

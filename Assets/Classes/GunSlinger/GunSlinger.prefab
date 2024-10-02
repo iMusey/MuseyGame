@@ -418,6 +418,11 @@ MonoBehaviour:
   bodySprite: {fileID: 8300456644271678452}
   player: {fileID: 0}
   healthBar: {fileID: 0}
+  passive: {fileID: 21300000, guid: a90e12ef89ed7c240a256d9a1551cf22, type: 3}
+  skill1: {fileID: 21300000, guid: 84895a4a6592f2441bf58af07ad28da9, type: 3}
+  skill2: {fileID: 21300000, guid: 14dc765ff0997a6479c3c6e188546a1d, type: 3}
+  skill3: {fileID: 21300000, guid: 1e0d29a5d2fa78c4490eca621c8cd456, type: 3}
+  skill4: {fileID: 21300000, guid: 00712c2d69f6a8f4794ac8a9dda5a780, type: 3}
   maxHP: 0
   HP: 0
   invincible: 0

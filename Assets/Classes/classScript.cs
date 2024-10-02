@@ -9,6 +9,12 @@ public class classScript : MonoBehaviour
     public playerScript player;
     public healthBarScript healthBar;
 
+    public Sprite passive;
+    public Sprite skill1;
+    public Sprite skill2;
+    public Sprite skill3;
+    public Sprite skill4;
+
 
     // Base Stats
     //  base stats are only changed by level
