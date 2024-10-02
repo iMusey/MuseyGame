@@ -1,0 +1,48 @@
+Gunslinger
+###
+Defeat your foes with a hail of gunfire
+###
+Sustained Fire
+###
+Every 3 seconds get a @buff@: “~onHit:~ deal =x%= damage where x is the amount of bullets fired in the last 3 seconds.” This @buff@ lasts 3 seconds.
+###
+Rapid Fire
+###
+Fire a bullet for =60%= damage
+###
+Bullet Arc
+###
+Fire 10 bullets in an arc for =10x60%= damage
+###
+Roll
+###
+Roll and briefly gain =invincibility=
+###
+Gatling Redemption
+###
+4 more guns appear that copies any bullets you fire for the next 9 seconds
+$$$
+
+Tank
+###
+Blow enemies away with powerful explosions
+###
+Destructive Tendencies
+###
+onHit: cause an explosion for 5% of the trigger’s damage
+###
+Shell
+###
+Fire a shell for 200% damage
+###
+Disruptive Shell
+###
+Fire a shell that deals 300% damage in a large area, stuns enemies hit, and creates a field that slows enemies by 30%.
+###
+Shift Gears
+###
+Gain 20% movement speed and 30 armor for 5 seconds
+###
+Cluster Bombs
+###
+Shoot 6 cluster bombs for 600*6% damage to 6 random enemies on screen. The cluster bombs explode into 6 smaller bombs dealing 200*6% damage

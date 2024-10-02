@@ -1,0 +1,104 @@
+~onHit:~
+###
+When an enemy is hit by anything
+$$$
+
+~onStrike:~
+###
+When an enemy is hit by player damage
+$$$
+
+~onMain:~
+###
+When you use your main skill
+$$$
+
+~onCrit:~
+###
+When you hit an enemy with a critical strike
+$$$
+
++onKill:+
+###
+When you kill an enemy
+$$$
+
+&onSkill(skillNum):&
+###
+When you use a skill (or a specified skill).
+$$$
+
+@onHeal:@
+###
+When you gain health
+$$$
+
++onHurt:+
+###
+When you take damage
+$$$
+
+@onLevel:@
+###
+When you level up
+$$$
+
+@onBuff:@
+###
+When you apply a buff
+$$$
+
+*onDebuff:*
+###
+When you apply a debuff
+$$$
+
+&onConjure:&
+###
+When you trigger a conjure effect (such as Gamble, Lightning, Magic Missiles)
+$$$
+
+=(x)% (player/trigger)= (Gamble( =(y)=
+###
+Roll y (dice( scaling with x% of player/trigger's damage at target location
+$$$
+
+(Dice(
+###
+1: Shoot a wide projectile
+2: Drop some money
+3: Chain Lightning
+4: Healing and movement speed
+5: Explode
+6: Lightning strikes 6 random enemies on screen
+$$$
+
+=(x)% (player/trigger)= !Chain Lightning! =(y) x (z)=
+###
+Conjure z lightning bolts that deal x% of the player/trigger's damage to y enemies
+$$$
+
+=(x)% (player/trigger)= !Lightning Strike! =(y) x (z)=
+###
+Conjure a lightning strike that strikes an area y times for x% of player/trigger's damage
+$$$
+
+=(x)% (player/trigger)= &Magic Missile& =(y) x (z)=
+###
+Conjure z magic missiles that pierce y times and deal x% of the player/trigger's damage
+$$$
+
+*Bond* =(x) (target)=
+###
+Conjure a bond between yourself and the target that lasts x seconds
+$$$
+
+@Bless@ =(x) (target)=
+###
+The target gains a blessing, healing x every 3 seconds for 12 seconds.
+$$$
+
+&Unleash:&
+###
+Trigger all potential effects
+$$$
